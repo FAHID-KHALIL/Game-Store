@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+body
+{
+  background-color: #24252A;
+}
+
+hr
+{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*---------NAVIGATION BAR------------------*/
+
+header
+{
+  margin:0;
+  padding:10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center ;
+}
+
+header li,a, button
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0d1;
+  text-decoration: none;
+}
+
+.nav_links li
+{
+  display: inline-block;
+  padding: 0px 17px;
+}
+
+.nav_links  li a
+{
+  transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover
+{
+  color: #0088a9;
+}
+
+.logo
+{
+  line-height: 72px;
+  vertical-align: middle;
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+  margin-right:auto;
+}
+
+
+
+
+header button
+{
+  padding: 9px 10px;
+  background-color: #24252A;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+header button:hover
+{
+  color :#0088a9;
+  border: 1px solid #0088a9;
+}
+
+
+
+.sys
+{
+  position: absolute;
+  align-items: center;
+  display:flex;
+  justify-content: center;
+  width: 470px;
+  right: 40px;
+}
+
+#logout
+{
+position: relative;
+right: 35px;
+}
+
+.user
+{
+position: absolute;
+right: 10px;
+top: -23px;
+font-weight: bold;
+font-size: 25px;
+font-family: "Montserrat", sans-serif;
+}
+
+
+.login-box input[type="text"] , input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+
+#signup
+{
+
+  padding: 9px 10px;
+  background-color: #24252A;
+  border: 1px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#signup:hover
+{
+  color :#0088a9;
+  border: 1px solid #0088a9;
+}
+
+/*--------------------------*/
+
+.header
+{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header h1
+{
+  color: #fff;
+  font-size: 40px;
+  margin-top: -30px;
+}
+
+.form
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.form input , textarea
+{
+  word-wrap: break-word;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  width: 100%;
+  margin: 20px 0;
+  background: rgba(0,0,0,0);
+  border: none;
+  border-bottom: 1px solid #0078ff;
+  color: #fff;
+}
+
+#msg
+{
+  margin-top: 50px;
+  border: 1px solid #0078ff;
+  resize: none;
+}
+
+.send
+{
+  padding: 20px 32px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid #0078ff;
+  border-radius: 4px;
+  margin-top: 30px;
+  color: #fff;
+}

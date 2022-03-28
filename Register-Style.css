@@ -1,0 +1,125 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(images/Login.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+/*-----------------------------------------------------------------*/
+
+header
+{
+  margin:0;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  border-radius: 50px;
+  margin-right: 50px;
+  border: 2px solid black;
+  width: 50%;
+}
+
+header li,a
+{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0d1;
+  text-decoration: none;
+}
+
+.nav_links li
+{
+  display: inline-block;
+  padding: 0px 25px;
+  margin-right: 50px;
+}
+
+.nav_links  li a
+{
+  transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover
+{
+  color: #0088a9;
+}
+
+.logo
+{
+  line-height: 72px;
+  vertical-align: middle;
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
+
+/*--------------------------------------------------------------*/
+
+
+.Register-box
+{
+  width: 400px;
+  height: 670px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box ;
+  padding: 70px 30px;
+  margin-top: 80px;
+}
+
+h1
+{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Register-box p
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+
+.Register-box input
+{
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.Register-box input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.Register-box input[type="submit"]:hover
+{
+  cursor: pointer;
+  background:#000 ;
+}
